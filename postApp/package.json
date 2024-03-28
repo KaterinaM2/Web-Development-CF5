@@ -1,0 +1,22 @@
+{
+  "name": "postapp",
+  "version": "1.0.0",
+  "description": "Post and Description app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "star" : "node --env-file=.env app.js",
+    "dev" : "nodemon --env-file=.env app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "express-validator": "^7.0.1",
+    "mysql": "^2.18.1",
+    "typeorm": "^0.3.20"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
